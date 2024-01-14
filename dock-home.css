@@ -1,0 +1,65 @@
+/*HOME*/
+@import url(http://fonts.googleapis.com/css?family=Audiowide);
+body{background:#A9A9F5 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAADCAYAAACwAX77AAAAFklEQVQI12NgYGCQ+v//PwM6ZiBZAgBcVS0iPBgVUgAAAABJRU5ErkJggg==) repeat center;margin:0;font:18px Audiowide;color:#A9A9F5;overflow:hidden;cursor:move;
+}
+h1{width:100%;position:absolute;top:-10px;font:100px/90px Audiowide;text-transform:capitalize;letter-spacing:-10px;background:#8181F7;border-top:2px solid #C4CDE0;border-bottom:2px solid #C4CDE0;-moz-box-shadow:inset 0 0 2px #000,0 0 10px #000;-webkit-box-shadow:inset 0 0 2px #000,0 0 10px #000;box-shadow:inset 0 0 2px #000,0 0 10px #000;cursor:help;
+}
+h1:first-letter{font:130px/50px Audiowide;background:#8181F7;padding-left:10px;padding-right:20px;color:#A9A9F5;margin-left:10px;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;border:2px solid #C4CDE0;-moz-box-shadow:inset 0 0 20px #000,0 0 10px #000;-webkit-box-shadow:inset 0 0 20px #000,0 0 10px #000;box-shadow:inset 0 0 20px #000,0 0 10px #000;
+}
+.copy{position:absolute;top:70px;right:5px;background:#A9A9F5;display:inline-block;padding:3px;border:4px double #8181F7;font-size:10px;line-height:10px;color:#8181F7;letter-spacing:1px;
+}
+.nice:hover{color:#8181F7;
+}
+.nice{position:absolute;bottom:15%;right:50px;z-index:-999;font:bold 50px Audiowide;color:#C4CDE0;letter-spacing:-10px;text-shadow: -1px 0px #000, 0px 1px #000, 1px 0px #000, 0px -1px #000,0 0 5px #000;transition:all 1s ease-out;-moz-transition:all 1s ease-out;-webkit-transition:all 1s ease-out;
+}
+a:link,a:visited{color:#A9A9F5;text-shadow: -1px 0px #000, 0px 1px #000, 1px 0px #000, 0px -1px #000,0 0 10px #000;-moz-transition:all 1s ease-out;-webkit-transition:all 1s ease-out;transition:all 1s ease-out;text-decoration:none;
+}
+a:hover{color:#ddd;
+}
+a.toltip{position:relative;z-index:24;}
+a.toltip span{display:none;}
+a.toltip:hover{z-index:999;}
+a.toltip:hover span.tooltip{display:block;position:absolute;top:130px;left:20px;padding:15px 0 0 0;width:200px;text-align:center;opacity:0.8;
+}
+a.toltip:hover span.top{display:block;padding:30px 8px 0;background:url(https://sites.google.com/site/binkbenk77/bubble.gif) no-repeat top;
+}
+a.toltip:hover span.middle{display:block;padding:0 8px;font:20px Audiowide;color:#A9A9F5;text-transform:uppercase;text-shadow:-1px 0 #000,0 1px #000,1px 0 #000,0 -1px #000;background:url(https://sites.google.com/site/binkbenk77/bubble_filler.gif) repeat bottom;
+}
+a.toltip:hover span.bottom{display:block;padding:3px 8px 10px;background:url(https://sites.google.com/site/binkbenk77/bubble.gif) no-repeat bottom;
+}
+#lefdock{position:absolute;width:100%;left:0;bottom:30%;
+}
+ul#lefdock{text-align:center;margin:0 auto;width:95%;
+}
+ul#lefdock li{margin:0;display:inline-block;
+}
+ul#lefdock li a{background-position:center;background-repeat:no-repeat;background-size:120px 80px;display:inline-block;width:140px;height:140px;-moz-transition:all 1s;-webkit-transition:all 1s;transition:all 1s;-moz-border-radius:20px;-webkit-border-radius:20px;border-radius:20px;padding:5px;border:2px solid #C4CDE0;-moz-box-shadow:0px 0px 15px #8181F7,0 0 40px #000,inset 0 0 30px #000;-webkit-box-shadow:0px 0px 15px #8181F7,0 0 40px #000,inset 0 0 30px #000;box-shadow:0px 0px 15px #8181F7,0 0 40px #000,inset 0 0 30px #000;background-color:#8181F7;
+}
+ul#lefdock li a:hover{-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;background-size:130px 140px;display:inline-block;width:140px;height:150px;margin-bottom:20px;background-color:#ddd;-moz-box-shadow:0 0 50px #000,inset 0 0 10px #000;-webkit-box-shadow:0 0 50px #000,inset 0 0 10px #000;box-shadow:0 0 50px #000,inset 0 0 10px #000;border:2px solid #C4CDE0;-moz-transform: rotate(10deg); -webkit-transform: rotate(10deg);transform: rotate(10deg);
+}
+ul#lefdock .home a{background-image:url(https://sites.google.com/site/binkbenk77/omah.png);
+}
+ul#lefdock .isi a{background-image:url(https://sites.google.com/site/binkbenk77/isi.png);
+}
+ul#lefdock .quest a{background-image:url(https://sites.google.com/site/binkbenk77/blog.png);
+}
+ul#lefdock .follow a{background-image:url(https://sites.google.com/site/binkbenk77/quest.png);
+}
+ul#lefdock .fb a{background-image:url(https://sites.google.com/site/binkbenk77/kontak.png);
+}
+#thempik{height:55px;width:100%;margin:0 auto;position:absolute;bottom:10px;z-index:-999;
+}
+#sikil{color:#BDBDBD;font:16px Audiowide;text-shadow:2px 2px 2px #000;margin:0 auto;width:95%;padding:15px 10px 35px 10px;background:#8181F7;-moz-box-shadow:inset 0 0 20px #000,0 0 10px #000;-webkit-box-shadow:inset 0 0 20px #000,0 0 10px #000;box-shadow:inset 0 0 20px #000,0 0 10px #000;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:2px solid #C4CDE0;
+}
+#sikil a{color:#BDBDBD;text-shadow:2px 2px 2px #000;
+}
+#sikil a:hover{color:#ddd;text-shadow:-1px 0 #000,0 1px #000,1px 0 #000, 0 -1px #000;
+}
+/*IKLAN*/
+#iklan{position:fixed;right:0;top:0;z-index:+1000;background:#8181F7 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAADCAYAAACwAX77AAAAFklEQVQI12NgYGCQ+v//PwM6ZiBZAgBcVS0iPBgVUgAAAABJRU5ErkJggg==) repeat center;width:35%;height:95%;padding:5px;border:8px solid #ddd;box-shadow:0 0 20px #000,inset 0 0 20px #000;opacity:0.9;
+}
+#isi{height:90%;overflow:auto;text-align:center;
+}
+#close .close{display:block;margin:0 auto;margin-top:5px;padding:5px;background:#424242;font:16px Verdana;color:#fff;border:4px solid #ddd;box-shadow:0 0 10px #000;cursor:pointer;
+}
+/*N HOME*/

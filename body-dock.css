@@ -1,0 +1,39 @@
+/*Design by : Binkbenks*/
+/*Url       : http://cuerosbhelatos.blogspot.com */
+a:visited,a:link{color:#fff;text-decoration:none;
+}
+a:hover{color:#f00;text-decoration:line-through;text-shadow:-1px 0 #000,0 1px #000,1px 0 #000, 0 -1px #000;
+}
+#badan-besar .widget ul,#weteng-gede .widget #ArchiveList ul.flat{margin:2px 0;padding:0;list-style:none;
+}
+#badan-besar .widget ul li,#weteng-gede .widget #ArchiveList ul.flat li{text-indent:0;
+}
+#badan-besar .widget #ArchiveList ul li{padding-top:.25em;padding-bottom:.25em;
+}
+html body{min-width:0;max-width:100%;width:100%;
+}
+#badan-besar{margin:0 auto;padding:10px;width:980px;
+}
+#kontol-besar{padding:5px;margin:5px 0;
+}
+#weteng-gede{-moz-border-radius:20px;-webkit-border-radius:20px;border-radius:20px;padding:5px;
+}
+h2{font-size:10px;font-style:italic;float:right;
+}
+h3{font:40px Baumans;color:#fff;text-shadow:-2px 0 #000,0 2px #000,2px 0 #000, 0 -2px #000;text-transform:capitalize;text-align:left;margin:10px;padding:5px;border:2px inset #fff;-moz-box-shadow:0 0 30px #000,inset 0 0 20px #000;-webkit-box-shadow:0 0 30px #000,inset 0 0 20px #000;box-shadow:0 0 30px #000,inset 0 0 20px #000;
+}
+.tempikmu{-moz-box-shadow:0 0 20px #000;-webkit-box-shadow:0 0 20px #000;box-shadow:0 0 20px #000;
+}
+h3:first-letter,h3,.tempikmu{-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;
+}
+h3:first-letter{background:#FFC900;font:50px Baumans;color:#fff;
+padding:0 20px 0 20px;border:1px inset #fff;-moz-box-shadow:inset 0 0 30px #000;-webkit-box-shadow:inset 0 0 30px #000;box-shadow:inset 0 0 30px #000;
+}
+#blog-pager a{font-size:15px;background:rgba(0,0,0,.5);display:inline-block;padding:5px;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;padding:5px;border:1px solid #424242;-moz-box-shadow:inset 0 0 20px #fff;-webkit-box-shadow:inset 0 0 20px #fff;box-shadow:inset 0 0 20px #fff;transition:all 2s ease-out;-moz-transition:all 2s ease-out;-webkit-transition:all 2s ease-out;
+}
+#blog-pager a:hover{background:#ff8000;color:#fff;-moz-box-shadow:inset 0 0 10px #000;-webkit-box-shadow:inset 0 0 10px #000;box-shadow:inset 0 0 10px #000;
+}
+.tempikmu{width:800px;margin:0 auto;margin-bottom:20px;font:18px Baumans;text-align:center;padding:5px;
+}
+.tempikmu a{text-shadow:-2px 0 #000,0 2px #000,2px 0 #000, 0 -2px #000;
+}

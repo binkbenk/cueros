@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@300&display=swap');
+body{background:#fff;background-image:-moz-linear-gradient(left,#ddd,#fff);background-image:-webkit-linear-gradient(left,#ddd,#fff);background-image:linear-gradient(left,#ddd,#fff);margin:0;font:15px Averia Libre;color:#000;
+}
+html body{min-width:100%;max-width:100%;width:100%;margin:0;
+}
+/*iklan google*/
+.iklan-konten{width:auto;height:auto;margin:0 auto;padding:5px;background:rgba(0,0,0,.5);border-top:1px solid #bbb;border-bottom:1px solid #bbb;color:#bbb;
+}
+.iklan-adsense img{width:180px;height:180px;float:right;padding:5px;background:#ccc;border-radius:100%;
+}
+.iklan-adsense img:hover{box-shadow:0 0 10px #fff;background:#fc0;
+}
+.judul-pesan-iklan{width:auto;margin-left:10%;margin-bottom:10px;border-bottom:3px solid #bbb;color:#bbb;
+}
+.judul-pesan-adsense{display:inline-block;font:25px/40px Averia Libre;color:#bbb;
+}
+.isi-pesan-iklan{width:auto;margin-left:20%;padding:10px;border-left:3px solid #bbb;font:14px/30px Averia Libre;font-style:italic;color:#bbb;
+}
+/*menu area*/
+#tempik{min-width:100%;width:100%;position:relative;margin:0 auto;top:0;left:0;right:0;font:bold 10px/35px Audiowide;text-align:center;background:rgba(0,0,0,.5);border-bottom:2px solid #ccc;box-shadow:0 0 0 1px #333;z-index:999;
+}
+#tempik:before{width:15px;height:15px;content:"";position:absolute;top:8px;left:8px;border-radius:100%;border:2px solid #999;background:#000;}#tempik:after{width:15px;height:15px;content:"";position:absolute;top:8px;right:8px;border-radius:100%;border:2px solid #999;background:#000;
+}
+#tempik a{margin:3px;font:10px/25px Audiowide;color:#333;text-decoration:none;}#tempik a:hover{color:#fff;text-shadow:1px 0 #555,-1px 0 #555,0 1px #555,0 -1px #555;
+}
+.tempik{display:inline-block;height:25px;background:rgba(444,444,444,.6);border: 1px solid #ddd;padding:0 10px 0 0;font:bold 10px/25px Audiowide;text-decoration:none;text-transform:uppercase;color:#000;box-shadow:0 0 0 1px #222,inset 0 0 0 1px #444;transition:all 0.5s;
+}
+.tempik:before{content:"";float:left;background:#777;width:30px;height:25px;text-align:center;font-weight:bold;font-size:20px;color:#222;margin:0 10px 0 0;box-shadow:inset 0 0 0 1px #444;
+}
+.tempik:hover{background-color:#fa0;color:#fff;}.tempik:hover:before{background: #000;color:#ddd;}.tempik:active{background:#b00;
+}
+.a:before{content:"\2756";}.b:before{content:"\2632";}.c:before{content:"\2794";}.d:before{content:"\2601";}.e:before{content:"\2622";}.f:before{content:"\2713";
+}
+/*posting area*/
+#badan-besar{width:auto;margin:0 auto;padding:20px 0 20px 0;
+}
+#weteng-gede{width:auto;margin:0 auto;padding:0;border-radius:5px;
+}
+#weteng-gede .widget .post-body ul{padding:0 1.5em;margin:.5em 0;
+}
+#weteng-gede .widget .post-body ul li{margin-bottom:.2em;
+}
+h3{display:none;font-size:0px;
+}
+a:link,a:visited{color:#999;text-decoration:none;}a:focus{outline-style:none;text-decoration:none;
+}
+a:hover{color:#f00;text-decoration:none;text-shadow:-1px 0 #000,0 1px #000,1px 0 #000, 0 -1px #000;
+}
+#main .post-body{position:relative;padding:10px;
+}
+kode,blockquote{position:relative;display:block;overflow:auto;background:rgba(0,0,0,.5);margin:10px;border:2px solid #ddd;box-shadow:0 0 0 1px #555;padding:40px 15px 15px 15px;font:12px/14px Averia Libre;color:#ddd;font-style:italic;
+}
+iframe{background:url(//sites.google.com/site/binkbenk77/loading-comment.png?attredirects=0) no-repeat center;position:relative;display:block;margin:0 auto;border:2px solid #ddd;box-shadow:0 0 0 1px #555;
+}
+blockquote:after{background:#444;border-color:#ddd;border-radius:100%;border-style:solid;border-width:1px 2px;box-shadow:0 0 0 1px #444;color:#ddd;content:"S";font:30px/18px Averia Libre;padding:5px;position:absolute;top:5px;left:10px;
+}
+blockquote:before{width:auto;background:#444;border:1px solid #ddd;color:#ddd;content:"ource Code for this Article \2794";font:bold 16px/14px Averia Libre;left:0;padding:5px 5px 5px 45px;position:absolute;top:0;left:0;right:0;
+}
+.tr_bq{background:#000;
+}
+/*comment thread area*/
+.comments,#comments{clear:both;position:relative;width:auto;margin:0 auto;padding:10px 5% 10px 5%;border-top:1px solid;display:none;
+}
+.comments .comments-content .comment-body{position:relative;
+}
+#comments h4{font-size:14px;
+}
+/*share button*/
+.respons-share{margin-left:10px;
+}
+.share{background:rgba(888,888,888,.5);font-size:12px;color:#222;line-height:20px;position:relative;height:20px;margin:0 auto;padding:5px;border-radius:4px;box-shadow:inset 0 0 1px #000;
+}
+.share:before{content:"";position:absolute;bottom:-15px;left:10px;width:0;height:0;border-left:10px solid transparent;border-right:10px solid transparent;border-top:15px solid #ddd;opacity:0.5;
+}
+a.facebook{background:url(//sites.google.com/site/binkbenk77/facebook-share.png?attredirects=0) no-repeat center;
+}
+a.twiter{background:url(//sites.google.com/site/binkbenk77/twiter-share.png?attredirects=0) no-repeat center;
+}
+a.pinterest{background:url(//sites.google.com/site/binkbenk77/pinterest-share.png?attredirects=0) no-repeat center;
+}
+a.email{background:url(//sites.google.com/site/binkbenk77/email-share.jpg?attredirects=0) no-repeat center;
+}
+.share a{float:left;margin-right:5px;display:block;width:20px;height:20px;background-size:130% 130%;border-radius:100%;box-shadow:inset 0 0 0 1px #fff,0 0 2px #000;
+}
+.share a:hover{transform:rotate(20deg);-webkit-transform:rotate(20deg);box-shadow:inset 0 0 0 2px #ddd,inset 0 0 5px #000,0 0 5px #000;
+}
+/*thread comment style*/
+.comments-content .datetime a{padding-left:5px;margin-left:10px;border-left:1px solid #ddd;
+}
+.comments-content .datetime a:before{content:"Says 0n : ";
+}
+.comment-header{font-size:12px;position:relative;display:inline-block;padding:4px;background:rgba(0,0,0,.3);border-radius:3px;box-shadow:0 0 0 1px #444,inset 0 0 0 1px #ddd;
+}
+.comment-header:after{content:"";position:absolute;bottom:-20px;left:10px;width:0;height:0;border-left:10px solid transparent;border-right:10px solid transparent;border-top:20px solid #ddd;
+}
+.comments-content .icon.blog-author{display:inline-block;height:18px;margin:0 0 -4px 6px;width:18px;background-repeat:no-repeat;background-image:url(http://img2.blogblog.com/img/icon18_edit_allbkg.gif);
+}
+.comments .comments-content .comment-thread ol{list-style-type:none;padding:0;margin:0;text-align:justify;
+}
+.comments-content,.comment-thread ol li{width:auto;font-size:12px;color:#ddd;background:rgba(0,0,0,.4);padding:10px;border-radius:5px;border:1px ridge #ddd;box-shadow:0 0 0 1px #555,inset 0 0 0 1px #555,inset 0 0 20px #ddd;
+}
+.comment .comment-block p.comment-content{width:auto;background:rgba(999,999,999,.5);border-radius:4px;border:1px solid #ddd;box-shadow:inset 0 0 0 1px #555;padding:10px;font-size:12px;color:#333;z-index:-999;
+}
+.comments .comments-content .comment:last-child{width:auto;padding:10px;border:1px solid #ddd;box-shadow:inset 0 0 0 1px #555,inset 0 0 20px #ddd;
+}
+#threaded-comment-form{margin:20px 0 0 0;display:block;position:relative;opacity:0.6;
+}
+#comment-editor{height:233px;width:99%;margin:5px auto 0;border-radius:5px;border:1px solid #ddd;box-shadow:inset 0 0 5px #000,0 0 1px #000;background:#fff url(//sites.google.com/site/binkbenk77/loading-comment.png?attredirects=0) no-repeat center;background-size:10% 10%;
+}
+.comment-actions{margin:0;padding:0;
+}
+.comment-actions .blog-admin,.item-control blog-admin{display:none;height;0;font-size:0;
+}
+.comments .continue a,.comment-actions a{margin-right:5px;display:inline;background:#444;border-radius:3px;font-size:12px;color:#ddd;padding:4px;border:1px solid #ddd;box-shadow:0 0 0 1px #444;
+}
+.comment-actions a:hover,.comments .continue a:hover{color:#fff;background:#a00;padding:4px 15px 4px 15px;
+}
+.avatar-image-container{float:left;margin:0 5px 0 0;width:50px;height:60px;border-radius:5px;border:2px ridge #ddd;overflow:hidden;
+}
+.avatar-image-container img{width:100%;height:100%;background-size:100% 100%;
+}
+.comment-thread.inline-thread .avatar-image-container{width:50px;height:40px;
+}
+.comments .comment-block{margin:0 0 0 60px;
+}
+.comments .comments-content .comment-replies{margin:0 0 0 60px;
+}
+.comments .comments-content .comment{margin-bottom:10px;
+}
+.comments .comments-content .user{font-style:normal;font-weight:bold;
+}
+.comments .comments-content .loadmore,.comments .comments-content .loadmore.loaded{display:none;margin:0;padding:0;height:0;overflow:hidden;
+}
+.comments .thread-chrome.thread-collapsed{display:none;
+}
+.comments .thread-toggle{cursor:pointer;display:inline-block;margin:10px 0 0 0;
+}
+.comments .thread-toggle .thread-arrow{display:inline-block;height:8px;margin:0;overflow:visible;padding-right:4px;width:8px;
+}
+.comments .thread-expanded .thread-arrow{background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAG0lEQVR42mNgwAfKy8v/48I4FeA0AacVDFQBAP9wJkE/KhUMAAAAAElFTkSuQmCC") no-repeat scroll 0 0 transparent;
+}
+.comments .thread-collapsed .thread-arrow{background:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAYAAADEUlfTAAAAJUlEQVR42mNgAILy8vL/DLgASBKnApgkVgXIkhgKiNKJ005s4gDLbCZBiSxfygAAAABJRU5ErkJggg==") no-repeat scroll 0 0 transparent;
+}
+/*code and image*/
+#comment-holder kode,#comment-holder i[rel="kode"] {display:block;padding:10px;margin:5px auto;overflow:auto;font-size:11px;font-style:italic;text-align:left;background:#ccc;color:#000;border:1px solid #fff;box-shadow:0 0 1px 1px #555,inset 0 0 2px 1px #555;
+}
+#comment-holder .gambar{display:block;background:#bbb;border-radius:4px;border:2px solid #eee;box-shadow:0 0 0 1px #555,3px 4px 4px 3px #555,inset 0 0 0 1px #666;margin:5px auto;padding:1%;width:30%;height:30%;
+}
+#comment-holder .vrame{display:block;background:#ddd;border:4px double #555;margin:5px auto;padding:2px;width:95%;height:400px;overflow:auto;
+}
+#comment-holder .musik{display:block;background:#2E9AFE url(https://sites.google.com/site/binkbenk77/musiks.png) no-repeat center;background-size:30% 70%;border-radius:10px;border:4px ridge #ddd;margin:5px auto;width:50%;height:150px;
+}
+#comment-holder .vidio{display:block;background:#ccc;border:2px solid #eee;box-shadow:0 0 2px 2px #555,inset 0 0 1px 1px #555;margin:5px auto;padding:5px;width:70%;height:300px;
+}
+/*button comments*/ 
+.cocot{width:auto;margin:0 auto;padding:2px 0 2px 0;font-size:16px;text-align:center;background:rgba(0,0,0,.6);border-radius:5px;border:1px solid;box-shadow:inset 0 0 0 1px #999;
+}
+.cocot:hover{background:#fc0;color:#555;}.cocot:active{background:#a00;color:#ccc;}.cocot a:active{color:#ccc;
+}
+/*blog pager*/
+#blog-pager a {overflow:hidden;position:fixed;text-indent:-9999px;width:35px;height:35px;z-index:999999;-webkit-transition:all 1s;transition:all 1s;bottom:0;opacity:0.8;bottom:5px;
+}
+.blog-pager-older-link{background:url(https://sites.google.com/site/binkbenk77/olds.png) no-repeat;right:5px;
+}
+.blog-pager-newer-link{background:url(https://sites.google.com/site/binkbenk77/news.png) no-repeat;right:35px;
+}
+#blog-pager a:hover{opacity:0.1;
+}
+/*animasi loading*/
+#page-loader{position:fixed!important;position:absolute;top:0;right:0;bottom:0;left:0;z-index:999999;display:none;
+background:#ddd;background:-moz-radial-gradient(center, ellipse cover, rgba(149,149,149,.9) 0%, rgba(13,13,13,.9) 46%, rgba(1,1,1,.9) 50%, rgba(10,10,10,.9) 53%, rgba(1,1,1,1) 76%, rgba(0,0,0,1) 87%, rgba(0,0,0,1) 100%);
+background:-webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(149,149,149,.9)), color-stop(46%,rgba(13,13,13,.9)), color-stop(50%,rgba(1,1,1,.9)), color-stop(53%,rgba(10,10,10,.9)), color-stop(76%,rgba(1,1,1,1)), color-stop(87%,rgba(0,0,0,1)), color-stop(100%,rgba(0,0,0,1)));
+background:-webkit-radial-gradient(center, ellipse cover, rgba(149,149,149,.9) 0%,rgba(13,13,13,.9) 46%,rgba(1,1,1,.9) 50%,rgba(10,10,10,.9) 53%,rgba(1,1,1,1) 76%,rgba(0,0,0,1) 87%,rgba(0,0,0,1) 100%);
+background:-o-radial-gradient(center, ellipse cover, rgba(149,149,149,.9) 0%,rgba(13,13,13,.9) 46%,rgba(1,1,1,.9) 50%,rgba(10,10,10,.9) 53%,rgba(1,1,1,1) 76%,rgba(0,0,0,1) 87%,rgba(0,0,0,1) 100%);
+background:-ms-radial-gradient(center, ellipse cover, rgba(149,149,149,.9) 0%,rgba(13,13,13,.9) 46%,rgba(1,1,1,.9) 50%,rgba(10,10,10,.9) 53%,rgba(1,1,1,1) 76%,rgba(0,0,06,1) 87%,rgba(0,0,0,1) 100%);
+background:radial-gradient(ellipse at center, rgba(149,149,149,.9) 0%,rgba(13,13,13,.9) 46%,rgba(0,0,0,.9) 50%,rgba(10,10,10,.9) 53%,rgba(1,1,1,1) 76%,rgba(0,0,0,1) 87%,rgba(0,0,0,1) 100%);
+filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', endColorstr='#1b1b1b',GradientType=1 );
+}
+#page-loader:before{width:90%;text-align:center;content:"Loading...";font:bold 40px Audiowide;color:#555;text-shadow:-1px 0 #fff,0 1px #fff,1px 0 #fff, 0 -1px #fff,0 0 10px #000;position:fixed;top:40%;left:0;
+}
+#page-loader:after{width:70%;text-align:right;content:"Please Wait... !!!";font:18px Audiowide;color:#fff;font-style:italic;text-shadow:-1px 0 #000,0 1px #000,1px 0 #000, 0 -1px #000;position:fixed;top:50%;left:0;
+}
+@keyframes myfirst{from{opacity:0;}to{opacity:10;}}@-moz-keyframes myfirst{from{opacity:0;}to{opacity:10;}}@-webkit-keyframes myfirst{from{opacity:0;}to{opacity:10;}}@keyframes{from{transform:translate(0px, 9000px)}to{transform:translate(0px, 0px)}}@-moz-keyframes{from{-moz-transform:translate(0px, 9000px)}to{-moz-transform:translate(0px, 0px)}}@-webkit-keyframes{from{-webkit-transform:translate(0px, 9000px)}to{-webkit-transform:translate(0px, 0px)}}body{animation:myfirst 3s;-moz-animation:myfirst 3s;-webkit-animation:myfirst 3s;
+}
+/*fotter area*/
+.tempikmu{clear:both;position:relative;width:auto;height:auto;margin:0 auto;background:rgba(0,0,0,.3);border-top:1px solid #bbb;
+}
+.widget-content{width:auto;height:auto;padding:5px 2% 5px 2%;font:10px Audiowide;text-align:justify;font-style:italic;color:#bbb;
+}
+.widget-content p{font:bold 14px/14px Audiowide;border-bottom:1px solid;margin:10px;
+}
+.widget-content ul{margin:0;padding:0;
+}
+.widget-content li{margin:0 0 0 15px;padding:0;
+}
+.widget-content a:link,.widget-content a:visited{font:11px Audiowide;color:#ccc;
+}
+.widget-content a:hover{color:#f00;text-decoration:underline;text-shadow:-1px 0 #000,0 1px #000,1px 0 #000, 0 -1px #000;
+}
+#author-photo{position:relative;float:left;height:80px;width:100px;background:#000 url(https://sites.google.com/site/binkbenk77/binkbenk.jpg) no-repeat center;background-size:100px 70px;margin:5px;border-radius:20%;border:1px solid;cursor:help;
+}
+#author-photo:hover:before{width:150px;content:"Hey What Are You Doing..???";position:absolute;left:25px;bottom:-12px;border-radius:10%;background:#ccc;color:#555;box-shadow:inset 0 0 1px #000;padding:5px;font:9px Audiowide;text-align:center;
+}
+#author-photo:hover:after{content:"";position:absolute;bottom:10px;left:35px;border-left:10px solid transparent;border-right:10px solid transparent;border-bottom:15px solid #ccc;
+}
+.widget-left,.widget-right{border-radius:10%;padding:10px;border:1px solid;box-shadow:0 0 5px #000;height:130px;background:rgba(0,0,0,.4);overflow:auto;position:relative;
+}
+.widget-left{width:40%;float:left;
+}
+.widget-right{width:40%;float:right;
+}
+.widget-left:before,.widget-right:before{content:"";width:10px;height:10px;position:absolute;top:10px;left:5px;border:1px solid;border-radius:100%;background:#000;
+}
+.widget-left:after,.widget-right:after{content:"";width:10px;height:10px;position:absolute;top:10px;right:5px;border:1px solid;border-radius:100%;background:#000;
+}
+.widget-message{width:40%;height:auto;padding:5px;overflow:auto;position:absolute;top:25px;right:2px;background:#ddd;color:#889;font-size:9px;line-height:15px;border:4px double;box-shadow:0 0 5px #fff;
+}
+.widget-fotter{clear:both;background:rgba(0,0,0,.4);width:auto;margin:0;font:14px Averia Libre,cursive;color:#ccc;text-align:center;padding:10px;border-top:1px solid;
+}
+/*media Query*/
+@media screen and (max-width:800px){a.tempik.a,a.tempik.d,a.tempik.e,a.tempik.f,.respons-share,.widget-message{display:none;}
+}
+@media screen and (max-width:500px){.comments .avatar-image-container,.avatar-image-container,.widget-left{display:none;}.comments .comment-block,#comments,.comments,.widget-right{width:auto;margin:0 auto;padding:0;float:none;}.comments-content,.comments .comments-content .comment-replies{width:auto;margin:0 auto;}.cocot{font-size:13px;}.post-body img{width:100%;margin:0 auto;float:none;}
+}
